@@ -9,6 +9,7 @@ __all__ = [
     "JavascriptGenericParser",
     "JavascriptMocha",
     "JavaGenericParser",
+    "scoring",
 ]
 from .java_parsers import JavaGenericParser
 from .javascript_parsers import JavascriptGenericParser, JavascriptJestPR, JavascriptMocha
@@ -20,3 +21,4 @@ from .typescript_parsers import (
     TypescriptMocha,
     TypescriptMochaFileName,
 )
+from .scorer import scoring
