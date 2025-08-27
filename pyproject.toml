@@ -8,12 +8,15 @@ version = "0.1.0"
 description = "Test output parsers for various programming languages and testing frameworks"
 readme = "README.md"
 authors = [{name = "Anurag Kashyap", email = "anurag1457@gmail.com"}]
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = []
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
 
