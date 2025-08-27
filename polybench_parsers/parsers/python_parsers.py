@@ -4,8 +4,8 @@ import re
 from dataclasses import asdict
 from typing import Dict, List, Optional
 
-from parser_protocol import TestOutputParser  # noqa: F401
-from parser_results import ParserResults
+from .parser_protocol import TestOutputParser  # noqa: F401
+from .parser_results import ParserResults
 
 
 class PythonPyUnit:

@@ -1,9 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "polybench-parsers"
 version = "0.1.0"
 description = "Test output parsers for various programming languages and testing frameworks"
 readme = "README.md"
-authors = [{name = "Anurag Kashyap", email = ""}]
+authors = [{name = "Anurag Kashyap", email = "anurag1457@gmail.com"}]
 requires-python = ">=3.13"
 dependencies = []
 classifiers = [
@@ -12,3 +16,13 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.13",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.4.1",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["polybench_parsers"]

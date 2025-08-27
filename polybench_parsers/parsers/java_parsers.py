@@ -5,8 +5,8 @@ import xml.etree.ElementTree as Et
 from dataclasses import asdict
 from typing import Dict, List
 
-from parser_protocol import TestOutputParser  # noqa: F401
-from parser_results import ParserResults
+from .parser_protocol import TestOutputParser  # noqa: F401
+from .parser_results import ParserResults
 
 
 class JavaGenericParser:
