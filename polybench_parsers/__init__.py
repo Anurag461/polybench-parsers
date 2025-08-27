@@ -18,4 +18,5 @@ __all__ = [
     "JavascriptGenericParser",
     "JavascriptMocha",
     "JavaGenericParser",
+    "scoring"
 ]
