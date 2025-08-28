@@ -24,7 +24,7 @@ class JavaGenericParser:
         """
 
         # Remove the string `+ read -r file` from the test log. otherwise it can appear in the xml and make it not parsable.
-        test_log = re.sub(r"\+ read -r file\s*", "", self.content, re.DOTALL)
+        test_log = re.sub(r"\+ read -r file\s*", "", self.content, count=0, flags=re.DOTALL)
 
         # Extract messages that indicate build/compilation failure
         has_build_failure = re.search(r"build failure", test_log, re.IGNORECASE) is not None

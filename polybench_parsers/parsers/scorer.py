@@ -6,7 +6,7 @@ def scoring(
 ) -> bool:
     """Logging and storing function (instance level).
 
-    This function returns a PolyBenchOutput json.
+    This function returns a boolean value indicating whether the instance is resolved.
 
     Args:
         instance_id: instance id
